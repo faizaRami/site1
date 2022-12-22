@@ -95,8 +95,8 @@
   span,
   input,
   label,
-  /* button,
-  ion-icon { display: block; } */
+  button,
+  ion-icon { display: block; }
   
   input,
   button {
@@ -242,9 +242,11 @@
   .header-top .logo img { max-width: 100px; }
   
   .header-btn-group {
+    
     justify-self: flex-end;
     display: flex;
     align-items: center;
+    
     gap: 10px;
     color: var(--white);
   }
@@ -892,7 +894,7 @@
     .search-btn { font-size: 30px; }
   
     .nav-open-btn { 
-      font-size: 40px;
+      font-size: 30px;
       margin-left:90%; 
     }
   
@@ -925,7 +927,7 @@
   
     .tour-search-form {
       display: grid;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 2fr 1fr;
       align-items: flex-end;
       gap: 15px;
     }
